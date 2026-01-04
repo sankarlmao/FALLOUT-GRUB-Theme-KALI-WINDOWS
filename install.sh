@@ -9,6 +9,15 @@
 # dual-boot setups, but should work with other distributions as well.
 # ===============================================================
 
+
+echo "# Matrix Morpheus GRUB Theme Installer for Kali Linux"
+echo "# Author: @psychoSherlock"
+echo "# Original Author: @Priyank-Adhav"
+echo "# ==============================================================="
+echo "# NOTE: This script is specifically designed for Kali Linux & Windows 11"
+echo "# dual-boot setups, but should work with other distributions as well."
+echo "# ==============================================================="
+
 set -e
 
 THEME_NAME="Matrix"
@@ -74,6 +83,23 @@ else
     echo "Kali theme config not found. Skipping Kali-specific configuration."
 fi
 
+# Set splash image paths
+SPLASH_SRC="grub-splash.png"
+SPLASH_DEST="/usr/share/images/desktop-base/desktop-grub.png"
+SPLASH_BKP="/usr/share/images/desktop-base/desktop-grub.png.old.bkp"
+
+# Update GRUB splash image if file exists
+if [ -f "$SPLASH_SRC" ]; then
+    echo "Updating GRUB splash screen..."
+    if [ -f "$SPLASH_DEST" ]; then
+        cp "$SPLASH_DEST" "$SPLASH_BKP"
+    fi
+    cp "$SPLASH_SRC" "$SPLASH_DEST"
+    echo "New GRUB splash screen applied. Old splash screen backed up as $SPLASH_BKP."
+else
+    echo "Splash image $SPLASH_SRC not found. Skipping splash screen update."
+fi
+
 # Regenerate GRUB
 echo "Rebuilding GRUB configuration..."
 if command -v update-grub >/dev/null 2>&1; then
@@ -96,4 +122,5 @@ echo "Reboot to see your new Matrix GRUB theme."
 echo ""
 echo "NOTE: To change the OS icons, manually edit the icon files"
 echo "in the 'icons' folder of this project to your preferred ones."
+echo "All credits goes to the original author @Priyank-Adhav."
 echo ""
