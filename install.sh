@@ -11,8 +11,8 @@
 
 
 echo "# Matrix Morpheus GRUB Theme Installer for Kali Linux"
-echo "# Author: @psychoSherlock"
-echo "# Original Author: @Priyank-Adhav"
+echo "# Author: @sankarlmao"
+echo "# Original Author: @shvchk"
 echo "# ==============================================================="
 echo "# NOTE: This script is specifically designed for Kali Linux & Windows 11"
 echo "# dual-boot setups, but should work with other distributions as well."
