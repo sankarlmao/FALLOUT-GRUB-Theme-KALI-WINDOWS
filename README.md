@@ -25,10 +25,9 @@ you still navigate using the **Up** and **Down arrow keys** as in a normal GRUB 
 
 ---
 
-![Matrix Morpheus GRUB Theme preview showing Kali and Windows 11 boot icons](preview.gif)
 
-Spash screen
-![Splash](grub-splash.png)
+
+
 
 ## Installation
 
