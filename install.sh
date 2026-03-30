@@ -1,9 +1,9 @@
 #!/bin/bash
 # ===============================================================
 # Matrix Morpheus GRUB Theme Installer for Kali Linux
-# Author: @psychoSherlock
+# Author: @sankarlmao
 # Original Author: @Priyank-Adhav
-# Repository: https://github.com/psychoSherlock/Morpheus-GRUB-Theme-KALI-WINDOWS.git
+# Repository: https://github.com/sankarlmaok/FALLOUT-GRUB-Theme-KALI-WINDOWS.git
 # ===============================================================
 # NOTE: This script is specifically designed for Kali Linux & Windows 11
 # dual-boot setups, but should work with other distributions as well.
