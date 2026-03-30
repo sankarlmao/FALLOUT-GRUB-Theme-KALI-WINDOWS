@@ -1,10 +1,10 @@
 # FALLOUT GRUB Theme (Kali & Windows 11)
 
-**Red Pill vs Blue Pill**
+**GREEN**
 
 A minimalist Matrix-inspired GRUB theme featuring full-screen dynamic backgrounds that change between Kali Linux and Windows.
 
-This is a modified version of the original work by [@Priyank-Adhav](https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme). I really loved the concept and just wanted the same for mine. All credits to the original author.
+This is a modified version of the original work by [@shvchk][(https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme](https://github.com/shvchk/fallout-grub-theme)). I really loved the concept and just wanted the same for mine. All credits to the original author.
 
 Changes Made:
 
