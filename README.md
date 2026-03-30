@@ -1,4 +1,4 @@
-# Matrix Morpheus GRUB Theme (Kali & Windows 11)
+# FALLOUT GRUB Theme (Kali & Windows 11)
 
 **Red Pill vs Blue Pill**
 
@@ -35,7 +35,7 @@ Spash screen
 1. Clone the repo
 
 ```shell
-git clone https://github.com/psychoSherlock/Morpheus-GRUB-Theme-KALI-WINDOWS.git
+git clone https://github.com/sankarlmao/FALLOUT-GRUB-Theme-KALI-WINDOWS.git
 ```
 
 2. Go into the folder
